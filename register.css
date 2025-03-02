@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+ul{
+list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+
+}
+.container{
+    margin: auto;
+    width: 100%;
+}
+
+section{
+    padding: 70px ;
+    
+}
+.navbar{ 
+    margin: 30px 100px;
+    background-color: white;
+    height: 80px;
+    border-radius:10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;  
+    position: relative;
+    z-index: 111;  
+   
+}
+
+.navbar-brand{
+    padding-left:20px;
+    font-weight: 500;
+}
+.navbar-brand span{
+    position: relative;
+    left: -6px;
+    color:#30e3ca ;
+}
+
+.navbar .container{ 
+    display: flex;
+    text-align: center;
+    
+ 
+}
+.navbar .container .log{
+    padding-left: 50px;
+
+}
+.navbar .container .post a{
+    background-color: #30e3ca;
+    border-radius: 10px;
+    margin-left: 10px;
+    color:white ;
+}
+
+.navbar .container .nav-item a:hover{
+    color: #30e3ca;
+}
+.register{
+    background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)),
+    url(./xhero_2.jpg.pagespeed.ic._xYTRIlPTB.webp);
+    margin-top: -150px;
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+    width: 100%;
+}
+.email .container{
+    align-items: center;
+    width: 600px;
+}
+.email .container h3{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.email .container p{
+    padding-top: 30px;
+}
+.email .container p span{
+    color: #30e3ca;
+}
+
+.email .container button{
+    padding: 5px 10px ;
+    border: none;
+    color: white;
+    background-color: #30e3ca;
+}
+.email .container button:hover{
+    background-color: #0069d9;
+}
+.news{
+    background-color: #30e3ca;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    height: 150px;
+}
+
+.news .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.news .container form {
+    display: flex;
+}
+
+.news .container form input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    padding-left: 0;
+    box-shadow: unset;
+    color: white;
+    
+}
+
+.news .container form input::placeholder{
+    color: white;
+}
+.news .container form .btn{
+    border-radius: 0px;
+}
+.news .container form .btn:hover{
+    color: black;
+}
+
+
+footer{
+    padding: 70px 0;
+    background-color: #333;
+    color: white;
+}
+footer .container .row{
+    padding: 90px 0;
+    border-bottom: 1px solid #888;
+}
+footer .container .row::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+footer .container .text h5{
+    margin-bottom: 20px;
+    
+}
+
+footer .container .text p{
+    color: #888;
+    font-size: 14px;
+}
+footer .container .about p{
+    width: 250px;
+}
+footer .container .text a i{
+    color: #888;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+footer .container form input{
+    background-color: transparent !important;
+    border-radius: 0;
+    box-shadow: unset;
+    width: 100% !important;
+    border-color: #6c757d !important;
+    color: white !important;
+}
+footer .container form .btn{
+    background-color: #30e3ca;
+    border-radius: 0;
+
+}
+footer .container form input::placeholder{
+    color: #888;
+}
+
+
+footer .container .copyright{
+    padding: 100px 0;
+    font-size: 14px;
+    color: #888;
+}
